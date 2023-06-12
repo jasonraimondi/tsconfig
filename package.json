@@ -1,9 +1,8 @@
 {
   "name": "@jmondi/tsconfig",
-  "version": "0.2.0-alpha.1",
+  "version": "0.2.0-alpha.2",
   "author": "Jason Raimondi <jason@raimondi.us>",
   "description": "An opinionated TypeScript config preset for strict and standardized development. Configs for both Node.js and browser environments.",
-  "main": "tsconfig.node.json",
   "exports": {
     ".": {
       "import": "./tsconfig.node.json",
