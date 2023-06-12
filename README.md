@@ -22,7 +22,6 @@ pnpm add @jmondi/tsconfig
 }
 ```
 
-
 ### Browser
 
 ```json5
