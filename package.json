@@ -1,0 +1,19 @@
+{
+  "name": "@jmondi/tsconfig",
+  "version": "0.2.0",
+  "author": "Jason Raimondi <jason@raimondi.us>",
+  "description": "An opinionated TypeScript config preset for strict and standardized development. Configs for both Node.js and browser environments.",
+  "main": "tsconfig.node.json",
+  "exports": {
+    ".": "./tsconfig.node.json",
+    "./node": "./tsconfig.node.json",
+    "./browser": "./tsconfig.browser.json",
+    "./strict": "./tsconfig.strict.json",
+    "./extra-strict": "./tsconfig.strict_extra.json"
+  },
+  "files": [
+    "tsconfig.*.json"
+  ],
+  "license": "MIT",
+  "private": false
+}
