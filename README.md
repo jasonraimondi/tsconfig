@@ -15,8 +15,8 @@ pnpm add @jmondi/tsconfig
 
 ```json5
 {
-  extends: "@jmondi/tsconfig",
-  compilerOptions: {
+  "extends": "@jmondi/tsconfig",
+  "compilerOptions": {
     /* add your own options */
   },
 }
@@ -27,8 +27,8 @@ pnpm add @jmondi/tsconfig
 
 ```json5
 {
-  extends: "@jmondi/tsconfig/browser",
-  compilerOptions: {
+  "extends": "@jmondi/tsconfig/browser",
+  "compilerOptions": {
     /* add your own options */
   },
 }
@@ -36,10 +36,10 @@ pnpm add @jmondi/tsconfig
 
 ### Extra Config
 
-```json
+```json5
 {
-  extends: ["@jmondi/tsconfig", "@jmondi/tsconfig/extra-strict"],
-  compilerOptions: {
+  "extends": ["@jmondi/tsconfig", "@jmondi/tsconfig/extra-strict"],
+  "compilerOptions": {
     /* add your own options */
   },
 }
