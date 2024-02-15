@@ -1,6 +1,6 @@
 {
   "name": "@jmondi/tsconfig",
-  "version": "0.2.0-alpha.2",
+  "version": "0.2.0-alpha.3",
   "author": "Jason Raimondi <jason@raimondi.us>",
   "description": "An opinionated TypeScript config preset for strict and standardized development. Configs for both Node.js and browser environments.",
   "exports": {
@@ -19,10 +19,6 @@
     "./strict": {
       "import": "./tsconfig.strict.json",
       "require": "./tsconfig.strict.json"
-    },
-    "./extra-strict": {
-      "import": "./tsconfig.strict_extra.json",
-      "require": "./tsconfig.strict_extra.json"
     }
   },
   "files": [

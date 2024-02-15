@@ -1,12 +1,7 @@
 {
-  "extends": "tsconfig.strict.json",
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-
-    "outDir": "dist",
-    "sourceMap": true
-  },
-  "include": ["src/**/*.ts"]
+    "moduleResolution": "NodeNext"
+  }
 }
