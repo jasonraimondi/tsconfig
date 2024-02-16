@@ -1,25 +1,14 @@
 {
   "name": "@jmondi/tsconfig",
-  "version": "0.2.0-alpha.3",
+  "version": "0.2.0-alpha.6",
   "author": "Jason Raimondi <jason@raimondi.us>",
   "description": "An opinionated TypeScript config preset for strict and standardized development. Configs for both Node.js and browser environments.",
+  "type": "module",
   "exports": {
-    ".": {
-      "import": "./tsconfig.node.json",
-      "require": "./tsconfig.node.json"
-    },
-    "./node": {
-      "import": "./tsconfig.node.json",
-      "require": "./tsconfig.node.json"
-    },
-    "./browser": {
-      "import": "./tsconfig.browser.json",
-      "require": "./tsconfig.browser.json"
-    },
-    "./strict": {
-      "import": "./tsconfig.strict.json",
-      "require": "./tsconfig.strict.json"
-    }
+    ".": "./tsconfig.node.json",
+    "./node": "./tsconfig.node.json",
+    "./browser": "./tsconfig.browser.json",
+    "./strict": "./tsconfig.strict.json"
   },
   "files": [
     "tsconfig.*.json"
